@@ -4,4 +4,4 @@ from rest_framework import serializers
 class AnalyzerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Analyzer
-        fields = ['name']
+        fields = ['id','brand','brand_logo','name','code','width','depth','height']
