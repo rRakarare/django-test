@@ -9,3 +9,6 @@ class Analyzer(models.Model):
     depth = models.FloatField()
     height = models.FloatField()
 
+    def __str__(self):
+        return f"{self.name}"
+
